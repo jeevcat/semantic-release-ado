@@ -46,6 +46,7 @@ The behavior when no new release is available can be configured with *setOnlyOnR
 | **Options**      | **Desctiption**                                       |
 |------------------|-------------------------------------------------------|
 | varName          | Name of the variable that will store the next version. Defaults to *nextRelease*. |
+| notesFilename    | Name of the file that will store the next version's release notes. Defaults to *nextNotes.txt*. |
 | setOnlyOnRelease | `Bool`. Determines if the variable with the new version will be set only when a new version is available. <br> If set to `false`, the next version variable will store the last released version when no new version is available.<br> Defaults to *true*. |
 
 
